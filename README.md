@@ -19,7 +19,7 @@ The **Simple Music Player** includes three primary nodes:
 
 ## Play Track
 
-![Play Track Node](https://github.com/SequoiaSan/SimpleMusicPlayer/images/play_track_node.png)
+![Play Track Node](https://github.com/SequoiaSan/SimpleMusicPlayer/tree/main/images/play_track_node.png)
 
 Designed to play a single track using a `SimpleMusicTrack` Blueprint.
 
@@ -31,13 +31,13 @@ Designed to play a single track using a `SimpleMusicTrack` Blueprint.
 
 ### Creating a SimpleMusicTrack Blueprint
 The `SimpleMusicTrack` Blueprint can be found here:  
-![SimpleMusicTrack](https://github.com/SequoiaSan/SimpleMusicPlayer/images/simplemusictrack.png)
+![SimpleMusicTrack](https://github.com/SequoiaSan/SimpleMusicPlayer/tree/main/images/simplemusictrack.png)
 
 A newly created `SimpleMusicTrack` Blueprint has this thumbnail:  
-![SimpleMusicTrack Thumbnail](https://github.com/SequoiaSan/SimpleMusicPlayer/images/simplemusictrack_thumbnail.png)
+![SimpleMusicTrack Thumbnail](https://github.com/SequoiaSan/SimpleMusicPlayer/tree/main/images/simplemusictrack_thumbnail.png)
 
 #### SimpleMusicTrack Structure and Options
-![SimpleMusicTrack Structure](https://github.com/SequoiaSan/SimpleMusicPlayer/images/simplemusictrack_structure.png)
+![SimpleMusicTrack Structure](https://github.com/SequoiaSan/SimpleMusicPlayer/tree/main/images/simplemusictrack_structure.png)
 
 - **Audio File**: Select the desired Wave asset.
 - **Optional Info**:
@@ -51,7 +51,7 @@ A newly created `SimpleMusicTrack` Blueprint has this thumbnail:
 
 ## Play Playlist
 
-![Play Playlist Node](https://github.com/SequoiaSan/SimpleMusicPlayer/images/play_playlist_node.png)
+![Play Playlist Node](https://github.com/SequoiaSan/SimpleMusicPlayer/tree/main/images/play_playlist_node.png)
 
 Designed to play a sequence of tracks from a `SimpleMusicPlaylist` Blueprint.
 
@@ -65,13 +65,13 @@ Designed to play a sequence of tracks from a `SimpleMusicPlaylist` Blueprint.
 
 ### Creating a SimpleMusicPlaylist Blueprint
 The `SimpleMusicPlaylist` Blueprint can be found here:  
-![SimpleMusicPlaylist](https://github.com/SequoiaSan/SimpleMusicPlayer/images/simplemusicplaylist.png)
+![SimpleMusicPlaylist](https://github.com/SequoiaSan/SimpleMusicPlayer/tree/main/images/simplemusicplaylist.png)
 
 A newly created `SimpleMusicPlaylist` Blueprint has this thumbnail:  
-![SimpleMusicPlaylist Thumbnail](https://github.com/SequoiaSan/SimpleMusicPlayer/images/simplemusicplaylist_thumbnail.png)
+![SimpleMusicPlaylist Thumbnail](https://github.com/SequoiaSan/SimpleMusicPlayer/tree/main/images/simplemusicplaylist_thumbnail.png)
 
 #### SimpleMusicPlaylist Structure and Options
-![SimpleMusicPlaylist Structure](https://github.com/SequoiaSan/SimpleMusicPlayer/images/simplemusicplaylist_structure.png)
+![SimpleMusicPlaylist Structure](https://github.com/SequoiaSan/SimpleMusicPlayer/tree/main/images/simplemusicplaylist_structure.png)
 
 - **Audio File**: Select the desired Wave asset.
 - **Optional Info**:
@@ -87,7 +87,7 @@ A newly created `SimpleMusicPlaylist` Blueprint has this thumbnail:
 
 ## Play Cue
 
-![Play Cue Node](https://github.com/SequoiaSan/SimpleMusicPlayer/images/play_cue_node.png)
+![Play Cue Node](https://github.com/SequoiaSan/SimpleMusicPlayer/tree/main/images/play_cue_node.png)
 
 Designed to play a single track using a standard Unreal Engine Sound Cue.  
 **Note**: This mode does not support variable BPM.
@@ -118,7 +118,7 @@ The `Transition` parameter ensures music persists across level or map changes wi
 
 ## OnTrackFinished Event
 
-![OnTrackFinished Event](https://github.com/SequoiaSan/SimpleMusicPlayer/images/ontrackfinished_event.png)
+![OnTrackFinished Event](https://github.com/SequoiaSan/SimpleMusicPlayer/tree/main/images/ontrackfinished_event.png)
 
 The `OnTrackFinished` event triggers when a track completes or is stopped.  
 **Note**: Tracks set to loop indefinitely will not fire this event.
@@ -128,31 +128,31 @@ The `OnTrackFinished` event triggers when a track completes or is stopped.
 ## Additional Nodes
 
 ### Set Max BPM
-![Set Max BPM Node](https://github.com/SequoiaSan/SimpleMusicPlayer/images/setmaxbpm.png)
+![Set Max BPM Node](https://github.com/SequoiaSan/SimpleMusicPlayer/tree/main/images/setmaxbpm.png)
 Sets the maximum BPM for the currently playing track.
 
 ### Set New BPM Normalized
-![Set New BPM Normalized Node](https://github.com/SequoiaSan/SimpleMusicPlayer/images/setnewbpmnormalized.png)
+![Set New BPM Normalized Node](https://github.com/SequoiaSan/SimpleMusicPlayer/tree/main/images/setnewbpmnormalized.png)
 Adjusts BPM in real-time between `Base BPM` and `Max BPM` using a normalized input (0.0 to 1.0). Applies to the current track (`Play Track`) or all tracks in the playlist (`Play Playlist`).
 
 ### Set New BPM
-![Set New BPM Node](https://github.com/SequoiaSan/SimpleMusicPlayer/images/setnewbpm.png)
+![Set New BPM Node](https://github.com/SequoiaSan/SimpleMusicPlayer/tree/main/images/setnewbpm.png)
 Immediately sets the BPM to a specific value for the current track.
 
 ### Set Volume
-![Set Volume Node](https://github.com/SequoiaSan/SimpleMusicPlayer/images/setvolume.png) 
+![Set Volume Node](https://github.com/SequoiaSan/SimpleMusicPlayer/tree/main/images/setvolume.png) 
 Adjusts the volume of the currently playing track.
 
 ### Pause
-![Pause Node](https://github.com/SequoiaSan/SimpleMusicPlayer/images/pause.png)  
+![Pause Node](https://github.com/SequoiaSan/SimpleMusicPlayer/tree/main/images/pause.png)  
 Pauses the current music playback.
 
 ### Resume
-![Resume Node](https://github.com/SequoiaSan/SimpleMusicPlayer/images/resume.png)   
+![Resume Node](https://github.com/SequoiaSan/SimpleMusicPlayer/tree/main/images/resume.png)   
 Resumes paused music playback.
 
 ### Stop
-![Stop Node](https://github.com/SequoiaSan/SimpleMusicPlayer/images/stop.png)   
+![Stop Node](https://github.com/SequoiaSan/SimpleMusicPlayer/tree/main/images/stop.png)   
 Stops the current music playback entirely.
 
 ---
