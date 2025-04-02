@@ -128,31 +128,43 @@ The `OnTrackFinished` event triggers when a track completes or is stopped.
 ## Additional Nodes
 
 ### Set Max BPM
-![Set Max BPM Node](images/setmaxbpm.png)
 Sets the maximum BPM for the currently playing track.
 
+![Set Max BPM Node](images/setmaxbpm.png)
+
+
 ### Set New BPM Normalized
-![Set New BPM Normalized Node](images/setnewbpmnormalized.png)
 Adjusts BPM in real-time between `Base BPM` and `Max BPM` using a normalized input (0.0 to 1.0). Applies to the current track (`Play Track`) or all tracks in the playlist (`Play Playlist`).
 
+![Set New BPM Normalized Node](images/setnewbpmnormalized.png)
+
+
 ### Set New BPM
-![Set New BPM Node](images/setnewbpm.png)
 Immediately sets the BPM to a specific value for the current track.
 
+![Set New BPM Node](images/setnewbpm.png)
+
+
 ### Set Volume
-![Set Volume Node](images/setvolume.png) 
 Adjusts the volume of the currently playing track.
 
+![Set Volume Node](images/setvolume.png) 
+
+
 ### Pause
-![Pause Node](images/pause.png)  
 Pauses the current music playback.
 
+![Pause Node](images/pause.png)  
+
+
 ### Resume
-![Resume Node](images/resume.png)   
 Resumes paused music playback.
 
+![Resume Node](images/resume.png)   
+
 ### Stop
-![Stop Node](images/stop.png)   
 Stops the current music playback entirely.
+
+![Stop Node](images/stop.png)   
 
 ---
