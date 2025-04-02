@@ -19,7 +19,7 @@ The **Simple Music Player** includes three primary nodes:
 
 ## Play Track
 
-![image](https://github.com/SequoiaSan/SimpleMusicPlayer/tree/main/images/play_track_node.png)
+![Play Track Node](images/play_track_node.png)
 
 Designed to play a single track using a `SimpleMusicTrack` Blueprint.
 
