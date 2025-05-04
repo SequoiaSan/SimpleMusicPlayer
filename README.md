@@ -27,7 +27,7 @@ Refer to our quick start guide to get started quickly.
 
 ## Play Track
 
-![Play Track Node](images/play_track_node.png)
+<img src="images/play_track_node.png" alt="Play Track Node" width="400" />
 
 Designed to play a single track using a `Simple Music Track`.
 
@@ -41,18 +41,18 @@ Designed to play a single track using a `Simple Music Track`.
 
 ### Creating a Simple Music Track
 The `Simple Music Track` can be found here:  
-![SimpleMusicTrack](images/simplemusictrack.png)
+<img src="images/simplemusictrack.png" alt="SimpleMusicTrack" width="600" />
 
 A newly created `Simple Music Track` has this thumbnail:  
-![SimpleMusicTrack Thumbnail](images/simplemusictrack_thumbnail.png)
+<img src="images/simplemusictrack_thumbnail.png" alt="SimpleMusicTrack Thumbnail" width="100" />
 
 #### Simple Music Track Structure and Options
-![SimpleMusicTrack Structure](images/simplemusictrack_structure.png)
+<img src="images/simplemusictrack_structure.png" alt="SimpleMusicTrack Structure" width="600" />
 
 - **Audio File**: Select the desired Wave asset.
 - **Optional Info**:
   - **Volume**: Set the playback volume (0.0 to 1.0).
-  - **Base BPM**: Define the track’s base beats per minute.
+  - **Base BPM**: Define the track's base beats per minute.
   - **Max BPM**: Set the maximum BPM for variable speed playback.
   - **Time To Play**: Specify the duration (in seconds) the track plays. Ignored if `Loop` is enabled.
   - **Sound Class**: Assign a Sound Class to this track for audio mixing.
@@ -61,7 +61,7 @@ A newly created `Simple Music Track` has this thumbnail:
 
 ## Play Playlist
 
-![Play Playlist Node](images/play_playlist_node.png)
+<img src="images/play_playlist_node.png" alt="Play Playlist Node" width="400" />
 
 Designed to play a sequence of tracks from a `Simple Music Playlist`.
 
@@ -74,13 +74,13 @@ Designed to play a sequence of tracks from a `Simple Music Playlist`.
 
 ### Creating a Simple Music Playlist
 The `Simple Music Playlist` can be found here:  
-![SimpleMusicPlaylist](images/simplemusicplaylist.png)
+<img src="images/simplemusicplaylist.png" alt="SimpleMusicPlaylist" width="600" />
 
 A newly created `Simple Music Playlist` has this thumbnail:  
-![SimpleMusicPlaylist Thumbnail](images/simplemusicplaylist_thumbnail.png)
+<img src="images/simplemusicplaylist_thumbnail.png" alt="SimpleMusicPlaylist Thumbnail" width="100" />
 
 #### Simple Music Playlist Structure and Options
-![SimpleMusicPlaylist Structure](images/simplemusicplaylist_structure.png)
+<img src="images/simplemusicplaylist_structure.png" alt="SimpleMusicPlaylist Structure" width="600" />
 
 - **Audio File**: Select the desired Wave asset.
 - **Optional Info**:
@@ -88,7 +88,7 @@ A newly created `Simple Music Playlist` has this thumbnail:
   - **Time to Fade In**: Specifies the time (in seconds) for the track to fade in when it starts playing.
   - **Time to Fade Out**: Specifies the duration (in seconds) for the track to fade out when transitioning to another track.
   - **Volume**: Set the playback volume (0.0 to 1.0).
-  - **Base BPM**: Define the track’s base beats per minute.
+  - **Base BPM**: Define the track's base beats per minute.
   - **Max BPM**: Set the maximum BPM for variable speed playback.
   - **Time To Play**: Duration (in seconds) the track loops.
 - **Sound Class**: Assign a Sound Class to each track from playlist for audio mixing.
@@ -102,7 +102,7 @@ A newly created `Simple Music Playlist` has this thumbnail:
 
 ## Play Cue
 
-![Play Cue Node](images/play_cue_node.png)
+<img src="images/play_cue_node.png" alt="Play Cue Node" width="400" />
 
 Designed to play a single track using a standard Unreal Engine Sound Cue.  
 **Note**: This mode does not support variable BPM.
@@ -126,7 +126,7 @@ The `Transition` parameter ensures music persists across level or map changes wi
 
 ### How Transition Works
 - When `Transition` is enabled, the node checks the currently playing track, playlist, or cue:
-  - If it matches the new node’s input, playback continues uninterrupted.
+  - If it matches the new node's input, playback continues uninterrupted.
   - If it differs, the previous audio stops, and the new audio starts.
 - **Compatibility**: `Transition` only works within the same node type (e.g., `Play Track` with `Play Track`). Mixing node types (e.g., `Play Track` with `Play Playlist`) restarts playback.
 - **Matching Logic**:
@@ -138,7 +138,7 @@ The `Transition` parameter ensures music persists across level or map changes wi
 
 ## OnTrackFinished Event
 
-![OnTrackFinished Event](images/ontrackfinished_event.png)
+<img src="images/ontrackfinished_event.png" alt="OnTrackFinished Event" width="600" />
 
 The `OnTrackFinished` event triggers when a track completes or is stopped.  
 **Note**: Tracks set to loop indefinitely will not fire this event.
@@ -148,17 +148,17 @@ The `OnTrackFinished` event triggers when a track completes or is stopped.
 ### On Track Finished
 Only works on non looped tracks
 
-![On Track Finished Event](images/on_track_finished_event.png) 
+<img src="images/on_track_finished_event.png" alt="On Track Finished Event" width="200" />
 
 ### On Fade Finished
 Trigger when Fade In or Fade Out completed
 
-![On Fade Finished Event](images/on_fade_finished_event.png) 
+<img src="images/on_fade_finished_event.png" alt="On Fade Finished Event" width="200" />
 
 ### On Cross Fade Finished
 Trigger when cross fade completed
 
-![On Cross Fade Finished Event](images/on_cross_fade_finished_event.png) 
+<img src="images/on_cross_fade_finished_event.png" alt="On Cross Fade Finished Event" width="200" />
 
 ---
 
@@ -167,62 +167,62 @@ Trigger when cross fade completed
 ### Set Volume
 Adjusts the volume of the currently playing track.
 
-![Set Volume Node](images/setvolume.png) 
+<img src="images/setvolume.png" alt="Set Volume Node" width="200" />
 
 
 ### Pause
 Pauses the current music playback.
 
-![Pause Node](images/pause.png)  
+<img src="images/pause.png" alt="Pause Node" width="200" />
 
 
 ### Resume
 Resumes paused music playback.
 
-![Resume Node](images/resume.png)   
+<img src="images/resume.png" alt="Resume Node" width="200" />
 
 ### Stop
 Stops the current music playback entirely.
 
-![Stop Node](images/stop.png)  
+<img src="images/stop.png" alt="Stop Node" width="200" />
 
 ### Set Max BPM
 Sets the maximum BPM for the currently playing track.
 
-![Set Max BPM Node](images/setmaxbpm.png)
+<img src="images/setmaxbpm.png" alt="Set Max BPM Node" width="200" />
 
 
 ### Set New BPM
 Immediately sets the BPM to a specific value for the current track.
 
-![Set New BPM Node](images/setnewbpm.png)
+<img src="images/setnewbpm.png" alt="Set New BPM Node" width="200" />
 
 
 ### Set New BPM Normalized
 Adjusts BPM in real-time between `Base BPM` and `Max BPM` using a normalized input (0.0 to 1.0). Applies to the **CURRENT** track (`Play Track`) or in  **CURRENT** track in the playlist (`Play Playlist`).
 
-![Set New BPM Normalized Node](images/setnewbpmnormalized.png)
+<img src="images/setnewbpmnormalized.png" alt="Set New BPM Normalized Node" width="200" />
 
 
 ### Set New Permanent BPM Normalized
 Adjusts BPM in real-time between `Base BPM` and `Max BPM` using a normalized input (0.0 to 1.0). Applies to the track (`Play Track`) or tracks in the playlist (`Play Playlist`) and any future tracks.
 
-![Set New Permanent BPM Normalized Node](images/set_new_permanent_normalized_bpm_node.png) 
+<img src="images/set_new_permanent_normalized_bpm_node.png" alt="Set New Permanent BPM Normalized Node" width="200" />
 
 
 ### Play Next
 Play next track in current playlist
 
-![Play Next Node](images/play_next_node.png) 
+<img src="images/play_next_node.png" alt="Play Next Node" width="200" />
 
 ### Fade Out
 Fade out current track. Fade out input in seconds
 
-![Fade Out Node](images/fade_out_node.png) 
+<img src="images/fade_out_node.png" alt="Fade Out Node" width="200" />
 
 ### Fade In
 Fade In current track. Fade in input in seconds
 
-![Fade In Node](images/fade_in_node.png) 
+<img src="images/fade_in_node.png" alt="Fade In Node" width="200" />
 
 ---
