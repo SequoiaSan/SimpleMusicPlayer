@@ -42,24 +42,42 @@
 We provide a small start example of how this plugin can be used, but it's not the only way. Plugin can be used almost in any kind of blueprint.
 
 1. Create a `SoundCue` file with music
+
 <img src="images/quick_start/soundcue_1.png" alt="Creating a SoundCue file with music_1" width="600" />
 <img src="images/quick_start/soundcue_1.png" alt="Creating a SoundCue file with music_2" width="600" />
+
 2. Open level blueprint
+
 <img src="images/quick_start/level_blueprint.png" alt="Level blueprint example" width="600" />
+
 3. Right click on free space in level blueprint and type "Get SimpleMusicPlayer"
+
 <img src="images/quick_start/get_simplemusicplayer_node.png" alt="Right-clicking in level blueprint to find 'Get SimpleMusicPlayer' node" width="600" />
+
 4. Add node `Get SimpleMusicPlayer`
-<img src="images/quick_start/simplemusicplayer_node.png" alt="Adding the 'Get SimpleMusicPlayer' node in the level blueprint" width="600" />
+
+<img src="images/quick_start/simplemusicplayer_node.png" alt="Adding the 'Get SimpleMusicPlayer' node in the level blueprint" width="200" />
+
 5. Grab an output of newly created SimpleMusicPlayer node and drop it somewhere in level blueprint
+
 6. In opened submenu start typing "Play Cue"
+
 <img src="images/quick_start/get_play_cue_node.png" alt="Adding 'Play Cue' node in level blueprint" width="600" />
+
 7. Add node `Play Cue`
+
 <img src="images/quick_start/play_cue_node.png" alt="Adding the 'Play Cue' node in the level blueprint" width="600" />
+
 8. Grab execution node from `Event BeginPlay` event of level blueprint and attach it to `Play Cue` execution node
+
 <img src="images/quick_start/execute_play_cue_node.png" alt="Connecting Event BeginPlay to Play Cue node in level blueprint" width="600" />
+
 9. In Play Cue's "Cue" drop-down field find your SoundCue and choose it
+
 <img src="images/quick_start/play_cue_node_drop_down.png" alt="Selecting a SoundCue in the Play Cue node's Cue drop-down field" width="600" />
+
 10. Now hit play in Unreal Engine Editor and you should hear your soundCue play.
+
 <img src="images/quick_start/start_game.png" alt="Unreal Engine Editor playing the SoundCue" width="600" />
 
 **Congratulations! You made it!**
