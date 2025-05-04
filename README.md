@@ -1,4 +1,5 @@
-# Simple Music Player
+# Simple Music Player (Version 1.0)
+### (Documentation for version 1.6 is in progress)
 
 A plugin for Unreal Engine designed to provide a straightforward background music player. With this plugin, you can trigger music tracks from anywhere in Blueprints, offering a seamless audio experience for your game.
 
