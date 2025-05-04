@@ -16,8 +16,8 @@ The **Simple Music Player** includes three primary nodes:
 - **Play Cue**: Plays a prepared Sound Cue (simplified mode, no variable BPM support)
 
 ---
-
-# [> Quick Start](placeholder)
+Refer to our quick start guide to get started quickly.
+# [> Quick Start Guide](QUICKSTART.md)
 
 ---
 
