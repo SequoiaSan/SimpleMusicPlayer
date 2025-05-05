@@ -1,5 +1,7 @@
 # Quick Start Guide
-
+---
+## [> Video guide](https://youtu.be/KNb27Bky7l8)
+---
 ## Plugin Installation
 
 1. Go to your Epic Games Launcher and open Unreal Engine tab on the left.
@@ -24,7 +26,9 @@
 1. Open your project (note, your project should be using same Unreal Engine version in which you installed plugin)
 2. Open menu "Edit" on the top. Choose "Plugins"
 <img src="images/quick_start/ue_plugins.png" alt="Unreal Engine Plugins menu screenshot" width="600" />
+
 3. In a search box on the top of plugin manager type in `Simple Music Player`
+
 4. Now you should see plugin in the list.
 
 <img src="images/quick_start/ue_plugin_manager_search.png" alt="Plugin Manager showing Simple Music Player plugin" width="600" />

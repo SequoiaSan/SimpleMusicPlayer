@@ -19,6 +19,9 @@ The **Simple Music Player** includes three primary nodes:
 Refer to our quick start guide to get started quickly.
 # [> Quick Start Guide](QUICKSTART.md)
 
+Or check out the Quick Start guide in video format
+# [> Quick Start Guide (Video)](https://youtu.be/KNb27Bky7l8)
+
 ---
 
 # Node Description
