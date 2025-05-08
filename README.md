@@ -2,6 +2,8 @@
 
 A plugin for Unreal Engine designed to provide a straightforward background music player. With this plugin, you can trigger music tracks from anywhere in Blueprints, offering a seamless audio experience for your game.
 
+[SimpleMusicPlayer plugin on Unreal Engine Marketplace](https://www.fab.com/listings/4264f5be-8181-4c71-b55f-943a1295e651)
+
 ### Features
 - Continuous playback across maps without interruptions
 - Variable real-time BPM (beats per minute) control without affecting pitch
